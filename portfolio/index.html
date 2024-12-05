@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramon's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">PORTFOLIO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bio">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#works">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div id="bio" class="jumbotron text-center bg-light mt-4">
+            <h1>Ramon Carrasco</h1>
+            <p>Hi, I’m Ramon, a graphic designer based in North Carolina! I specialize in brand identity, logo design, & illustration. I’ve worked on marketing materials like flyers & brochures, as well as custom designs for local businesses. I try to be creative every day & try stuff outside my comfort zone!</p>
+        </div>
+
+        <section id="works" class="portfolio-gallery mt-5">
+            <h2 class="section-heading">Works</h2>
+            <div class="top">
+                <ul>
+                    <li>
+                        <a href="#lightbox1">
+                            <img src="images/burstfade.jpg" alt="Burst Fade Design - an Orthographic projection of a Razor displayed over a pattern, razor parts line the edges">
+                        </a>
+                        <div id="lightbox1" class="lightbox">
+                            <a href="#" class="lightbox-close">&times;</a>
+                            <img src="images/burstfade.jpg" alt="Burst Fade Design Lightbox">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#lightbox2">
+                            <img src="images/lorem2.jpg" alt="Lorem Design - Fake Magazine cover displaying a white statue over a pink mountainrange with retro graphics for a 'LOREM music magazine'">
+                        </a>
+                        <div id="lightbox2" class="lightbox">
+                            <a href="#" class="lightbox-close">&times;</a>
+                            <img src="images/lorem2.jpg" alt="Lorem Design Lightbox">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#lightbox3">
+                            <img src="images/ignite.jpg" alt="Ignite Design - Black text stating IGNITE CHANGE surrounding words describing the environment in the shape of a flame">
+                        </a>
+                        <div id="lightbox3" class="lightbox">
+                            <a href="#" class="lightbox-close">&times;</a>
+                            <img src="images/ignite.jpg" alt="Ignite Design Lightbox">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#lightbox4">
+                            <img src="images/ad-600p.jpg" alt="Advertisement Design - Magazine ad for SOLIS Sunflower Extract, one side displays a man drinking from a can at dawn, and a silhouette on the other side is drinking at night">
+                        </a>
+                        <div id="lightbox4" class="lightbox">
+                            <a href="#" class="lightbox-close">&times;</a>
+                            <img src="images/ad-600p.jpg" alt="Advertisement Design Lightbox">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section mt-5">
+            <h2 class="section-heading">Skills</h2>
+            <div class="container">
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Photoshop - 80%</div>
+                </div>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Illustrator - 75%</div>
+                </div>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">HTML - 65%</div>
+                </div>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">CSS - 60%</div>
+                </div>
+                <p class="text-center mt-4">With experience in Adobe Illustrator, Photoshop, & InDesign, I bring projects to life through attention to detail & branding consistency. I’m also skilled in data entry, time management, & collaboration, helping me balance creativity with results.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section mt-5">
+            <h2 class="section-heading">Let's Get in Touch!</h2>
+            <p class="text-center">Interested in having a project made? Need to hash out some details? Reach out to me here! I’m currently open to any opportunities.</p>
+            <div class="container contact-form">
+                <form action="mailto:youremail@example.com" method="post" enctype="text/plain" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+            
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="mb-1">© 2024 Ramon Carrasco</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/ramon-carrasc000/" target="_blank" class="text-white">
+                    <i class="fab fa-linkedin"></i>
+                </a></li>
+                <li class="list-inline-item"><a href="https://github.com/R-amon" target="_blank" class="text-white">
+                    <i class="fab fa-github"></i>
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
